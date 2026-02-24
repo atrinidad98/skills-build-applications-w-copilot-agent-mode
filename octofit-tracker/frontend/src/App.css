@@ -1,0 +1,119 @@
+/* Alegre, divertido y colorido */
+.octofit-fun-font {
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive, sans-serif;
+  color: #ff5e62;
+  text-shadow: 1px 1px 2px #ffe066, 0 0 10px #ff5e62, 0 0 5px #ffb347;
+}
+
+.octofit-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.octofit-navbar {
+  background: linear-gradient(90deg, #ffb347 0%, #ff5e62 100%);
+}
+
+.octofit-link {
+  color: #fff700 !important;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+.octofit-link:hover {
+  color: #ff5e62 !important;
+}
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #1a237e;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%) !important;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.1);
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card {
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.08);
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+.card-header {
+  background: #1976d2;
+  color: #fff;
+  border-radius: 12px 12px 0 0;
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+table.table thead {
+  background: #42a5f5;
+  color: #fff;
+}
+table.table tbody tr:nth-child(even) {
+  background: #e3f2fd;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus {
+  background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.08);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #1565c0 0%, #1e88e5 100%);
+}
+
+h1, h2, h3, h4, h5 {
+  color: #1976d2;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #1976d2;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #0d47a1;
+}
+
+/* Favicon and logo styles */
+.octofit-logo {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
